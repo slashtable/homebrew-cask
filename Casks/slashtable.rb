@@ -1,9 +1,9 @@
 cask "slashtable" do
-  version "0.4.4"
+  version "0.5.2"
   arch arm: "aarch64", intel: "x64"
 
-  sha256 arm:   "3558fc916a9319677bb1aa15967a3c68daaf967cddc1f86b52d94cdaa445f405",
-         intel: "8ca191e5b8fe729c2e41ed26bbe45566a5144a03b6373e9502e8e87399a28956"
+  sha256 arm:   "e81aa7cfbe9bc4b3d88f47dca4057a2ada691b870ffe28f27ce6b70cc86baa5a",
+         intel: "423e369120525fe6dc52192277c24f34ca677382c9d3c4ca4bb6c4d6441f1208"
 
   url "https://downloads.slashtable.dev/v#{version}/SlashTable_#{version}_#{arch}.dmg"
 
